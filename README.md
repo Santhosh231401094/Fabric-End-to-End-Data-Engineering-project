@@ -176,9 +176,10 @@ Downstream **Data Analytics (DA)** teams can:
 ```text
 .
 ├── data/
+├── diagrams/
 ├── notebooks/
 ├── pipelines/
-├── diagrams/
+├── scripts/
 ├──LICENSE
 └── README.md
 ```
