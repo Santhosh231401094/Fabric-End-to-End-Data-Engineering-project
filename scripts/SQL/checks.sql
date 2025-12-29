@@ -1,0 +1,6 @@
+SELECT * FROM source_cars
+
+SELECT * FROM WATER_TABLE
+SELECT  MAX(DATE_ID) FROM source_cars
+
+SELECT COUNT(*) FROM source_cars
