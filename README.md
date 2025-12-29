@@ -4,7 +4,6 @@ An **end-to-end Data Engineering project** built on **Microsoft Fabric**, demons
 
 The project delivers **curated external Delta tables in a Lakehouse**, designed for **downstream analytics consumption**.
 
-#### Dataset: https://tableauserverguru.wordpress.com/sample-data-sets/
 ---
 
 ## 📌 Project Overview
@@ -23,6 +22,7 @@ This project implements a modern **ELT pipeline** that:
 ## 🏗 Architecture
 <img width="4233" height="2406" alt="ARCHITECTURE" src="https://github.com/user-attachments/assets/ecfc8f69-f80e-4aa0-8177-f5912604b919" />
 
+#### Dataset: https://tableauserverguru.wordpress.com/sample-data-sets/
 ---
 
 ## 🛠 Tech Stack
