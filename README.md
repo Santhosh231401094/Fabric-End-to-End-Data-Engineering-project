@@ -1,2 +1,5 @@
-![Project Architecture](diagrams/ARCHITECTURE_DIAGRAM.svg)
 
+
+<p align="center">
+  <img src="diagrams/ARCHITECTUREDIAGRAM.svg" width="100%">
+</p>
