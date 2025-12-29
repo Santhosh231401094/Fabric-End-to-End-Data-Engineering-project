@@ -1,0 +1,24 @@
+--DROP TABLE WATER_TABLE
+--DROP PROCEDURE Updatewater_table
+
+CREATE TABLE WATER_TABLE
+(
+last_load VARCHAR(2000)
+)
+
+
+INSERT INTO WATER_TABLE
+VALUES('DT00000')
+
+
+--Stored procedure
+CREATE PROCEDURE Updatewater_table
+    @lastLoad VARCHAR(200)
+AS
+BEGIN
+    BEGIN TRANSACTION;
+    --UPDATE incremental rows
+
+    UPDATE WATER_TABLE SET last_load=@lastLoad
+    COMMIT TRANSACTION;
+END;
