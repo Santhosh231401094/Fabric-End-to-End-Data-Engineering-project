@@ -168,5 +168,6 @@ Downstream **Data Analytics (DA)** teams can:
 ├── notebooks/
 ├── pipelines/
 ├── diagrams/
+├──LICENSE
 └── README.md
 ```
