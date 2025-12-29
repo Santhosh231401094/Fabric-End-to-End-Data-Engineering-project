@@ -135,6 +135,7 @@ This guarantees **idempotent upserts** and maintains the **latest dimension stat
 ## ⭐ Dimensional Modeling
 
 The Gold layer follows a **Star Schema** design.
+![star_schema1](https://github.com/user-attachments/assets/df77785a-acd8-42fd-a7b0-164cd9e7508a)
 
 
 - Central **fact_sales** table with business measures  
