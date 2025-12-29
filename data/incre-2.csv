@@ -1,0 +1,6 @@
+Branch_ID,Dealer_ID,Model_ID,Revenue,Units_Sold,Date_ID,Day,Month,Year,BranchName,DealerName,Product_Name
+BR9991,DLR9001,BMW-M1,15200000,2,DT01248,1,6,2020,Apex Motors,Nexus Dealer,BMW
+BR9992,DLR9002,Hon-M2,18500000,3,DT01249,2,6,2020,Vertex Motors,Prime Dealer,Honda
+BR9993,DLR9003,Tat-M1,9200000,1,DT01250,3,6,2020,Zenith Motors,Global Dealer,Tata
+BR9994,DLR9004,Hyu-M1,12800000,2,DT01251,4,6,2020,Nova Motors,Elite Dealer,Hyundai
+BR9995,DLR9005,Ren-M1,7500000,1,DT01252,5,6,2020,Orbit Motors,Alpha Dealer,Renault
