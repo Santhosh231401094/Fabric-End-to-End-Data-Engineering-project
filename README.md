@@ -132,7 +132,16 @@ This guarantees **idempotent upserts** and maintains the **latest dimension stat
 
 ---
 
-## 🗃️ Gold Layer Storage Strategy
+## ⭐ Dimensional Modeling
+
+The Gold layer follows a **Star Schema** design.
+
+
+- Central **fact_sales** table with business measures  
+- Supporting dimensions: `dim_date`, `dim_branch`, `dim_model`, `dim_dealer`  
+- Fact table stores **foreign keys + measures only**  
+- Dimensions use **surrogate keys** and follow **SCD Type-1**  
+- Optimized for analytical queries and Power BI consumption  
 
 Gold tables are stored as **external Delta tables** in the Fabric Lakehouse.
 
